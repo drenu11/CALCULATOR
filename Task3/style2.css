@@ -1,0 +1,19 @@
+body{
+    margin:0px;
+    padding:0px;
+    font-size: medium;
+    /*background-color:black;*/
+    color: rgb(6, 6, 6);
+    text-align: center;
+    background-color: rgb(90, 201, 235);
+}
+h1{
+    font-size: 45px;
+}
+input{
+    width:75px;
+    height:50px;
+    font-size: 40px;
+    border-radius: 10px;
+    margin:5px;
+}

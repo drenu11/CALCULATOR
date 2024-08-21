@@ -1,0 +1,104 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+header {
+    background-color: #0bdef5;
+    color: white;
+    padding: 0.5rem;
+    text-align: center;
+}
+
+section {
+    padding: 2rem;
+    margin: 1rem 0;
+    background-color: #fff;
+    border-radius: 8px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+.profile-pic {
+    display: block;
+    margin: 10px auto;
+    width: 50%; /* Adjust the width to make the image smaller */
+    height: auto; /* Maintain aspect ratio */
+    border-radius: 5%;
+    object-fit: cover;
+    position: relative;
+    left: 50%; /* Move the image to the center */
+    transform: translateX(-50%); /* Center the image horizontally */
+}
+
+
+
+nav ul {
+    list-style: none;
+    padding: 0;
+}
+
+nav ul li {
+    display: inline;
+    margin: 0 1rem;
+}
+
+nav ul li a {
+    color: white;
+    text-decoration: none;
+}
+
+
+.project {
+    display: flex;
+    border: 1px solid #ccc;
+    padding: 1rem;
+    margin: 1rem 0;
+}
+
+.project-description {
+    flex: 2;
+}
+
+.project-extra {
+    flex: 1;
+    padding-left: 1rem;
+    border-left: 1px solid #ccc;
+}
+
+form {
+    display: flex;
+    flex-direction: column;
+}
+
+form label {
+    margin-top: 1rem;
+}
+
+form input[type="text"],
+form input[type="email"] {
+    padding: 0.5rem;
+    margin-top: 0.5rem;
+}
+
+form input[type="submit"] {
+    margin-top: 1rem;
+    padding: 0.5rem;
+    background-color: #0bdef5;
+    color: white;
+    border: none;
+    cursor: pointer;
+}
+
+footer {
+    background-color: #333;
+    color: white;
+    text-align: center;
+    padding: 1rem;
+}
+
+footer a {
+    color: #ff6347;
+    text-decoration: none;
+}
